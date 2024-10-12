@@ -24,9 +24,8 @@ for (let start = endRange; start >= startRange; start--) {
         }
 
         if (palindromeCandidate == copyProduct) {
-            if (palindromeCandidate > largestPalindromeNumber) {
-                largestPalindromeNumber = palindromeCandidate;
-            }
+            largestPalindromeNumber = palindromeCandidate;
+            break;
         }
 
     }
